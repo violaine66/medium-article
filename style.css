@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+body{
+    font-family: "Roboto", serif;
+    font-style: normal;
+    color :  #494949;
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Lora', serif;
+  }
+h1 {
+   color: #242424 ;
+   font-family: "Monserrat";
+   font-style: normal;
+   display: block;
+   font-weight: bold;
+   unicode-bidi: isolate;
+  }
+  h2,h3{
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+  color: #A0A0A9;
+}
+h1{
+  font-size: 40px ;
+}
+h2,h3{
+  font-size: 32px;
+}
+footer{
+  text-align: center;
+}
+.container{
+  margin-top: 0%;
+  margin: 5px auto 5px auto;
+  width : 650px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 3.5px;
+  box-shadow: 8px 10px rgba(0, 0, 0, 0.01);
+  text-align: left;
+}
+.banner {
+  background-image: url("https://loremflickr.com/320/240");
+  background-size: cover;
+  color: white;
+  padding: 100px 0;
+  }
+.link-medium{
+background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+color: #636363;
+font-weight: lighter;
+font-size: 25px;
+font-style: italic;
+text-decoration: none;
+}
+.link-medium:hover{
+background-image:linear-gradient(to bottom, rgb(106, 223, 147), rgb(99, 220, 141));
+cursor: pointer;
+color:#636363;
+}
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 888px) {
+  .container {
+    width: 600px;
+  }
+}
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+@media(max-width: 640px) {
+  .container {
+    width: 400px;
+  }
+}
+@media(max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
